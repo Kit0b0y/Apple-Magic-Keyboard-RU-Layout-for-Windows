@@ -1,0 +1,89 @@
+KBD	APPLRU	"Apple Magic Keyboard Russian (ANSI)"
+
+COPYRIGHT	"© 2026 Kit0b0y"
+
+COMPANY	"Apple Magic Keyboard Layout"
+
+LOCALENAME	"ru-RU"
+
+MODIFIERS
+
+//	VK_		Mod	Mods
+	CAPSLOCK	CAPS	0
+	LCTRL		CTRL	0
+	RCTRL		CTRL	0
+	LALT		ALT	0
+	RALT		ALT	ALTGR
+	LSHIFT		SHIFT	0
+	RSHIFT		SHIFT	0
+	LWIN		LWIN	0
+	RWIN		RWIN	0
+
+LAYOUT		USCODES
+
+//	Scan	VK		Cap	0		Sh		C+S/CA	ALTGR	C+ALTGR
+//	----	----		----	----		----		----		----	----
+
+	02	1		CAPLOK	1		!		1		1		!
+	03	2		CAPLOK	2		"		2		2		@
+	04	3		CAPLOK	3		№		3		3		#
+	05	4		CAPLOK	4		;		4		4		$
+	06	5		CAPLOK	5		%		5		5		%
+	07	6		CAPLOK	6		:		6		6		^
+	08	7		CAPLOK	7		?		7		7		&
+	09	8		CAPLOK	8		*		8		8		*
+	0a	9		CAPLOK	9		(		9		9		(
+	0b	0		CAPLOK	0		)		0		0		)
+	0c	OEM_MINUS	CAPLOK	-		_		-		-		_
+	0d	OEM_PLUS	CAPLOK	=		+		=		=		+
+
+	10	Q		CAPLOK	й		Й		й		q		Q
+	11	W		CAPLOK	ц		Ц		ц		w		W
+	12	E		CAPLOK	у		У		у		e		E
+	13	R		CAPLOK	к		К		к		r		R
+	14	T		CAPLOK	е		Е		е		t		T
+	15	Y		CAPLOK	н		Н		н		y		Y
+	16	U		CAPLOK	г		Г		г		u		U
+	17	I		CAPLOK	ш		Ш		ш		i		I
+	18	O		CAPLOK	щ		Щ		щ		o		O
+	19	P		CAPLOK	з		З		з		p		P
+	1a	OEM_4		CAPLOK	х		Х		х		[		{
+	1b	OEM_6		CAPLOK	ъ		Ъ		ъ		]		}
+
+	1e	A		CAPLOK	ф		Ф		ф		a		A
+	1f	S		CAPLOK	ы		Ы		ы		s		S
+	20	D		CAPLOK	в		В		в		d		D
+	21	F		CAPLOK	а		А		а		f		F
+	22	G		CAPLOK	п		П		п		g		G
+	23	H		CAPLOK	р		Р		р		h		H
+	24	J		CAPLOK	о		О		о		j		J
+	25	K		CAPLOK	л		Л		л		k		K
+	26	L		CAPLOK	д		Д		д		l		L
+	27	OEM_1		CAPLOK	ж		Ж		ж		;		:
+	28	OEM_7		CAPLOK	э		Э		э		'		"
+	29	OEM_3		CAPLOK	ё		Ё		ё		`		~
+
+	2c	Z		CAPLOK	я		Я		я		z		Z
+	2d	X		CAPLOK	ч		Ч		ч		x		X
+	2e	C		CAPLOK	с		С		с		c		C
+	2f	V		CAPLOK	м		М		м		v		V
+	30	B		CAPLOK	и		И		и		b		B
+	31	N		CAPLOK	т		Т		т		n		N
+	32	M		CAPLOK	ь		Ь		ь		m		M
+	33	OEM_COMMA	CAPLOK	б		Б		б		,		<
+	34	OEM_PERIOD	CAPLOK	ю		Ю		ю		.		>
+	35	OEM_2		CAPLOK	.		,		.		/		?
+
+	39	SPACE		0		 		 		 		 		 
+
+KEYNAME
+
+KEYNAME_EXT
+
+KEYNAME_DEAD
+
+DESCRIPTIONS
+
+LANGUAGENAMES
+
+ENDKBD
